@@ -21,11 +21,11 @@
  * make ;-;.
  */
 struct commit {
-	var std::string sha1;
-	var std::string parent_sha1;
+	std::string sha1;
+	std::string parent_sha1;
 	struct author {
-		var std::string name;
-		var std::string email;
+		std::string name;
+		std::string email;
 	} author;
 	std::string message;
 	time_t date;
