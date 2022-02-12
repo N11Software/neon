@@ -9,6 +9,8 @@
 #ifndef FILE_H
 #define FILE_H
 
+#include <string>
+
 #define HASH_SIZE 20
 
 struct filespec {
@@ -21,3 +23,5 @@ struct filespec {
 };
 
 extern size_T file_length(FILE *file);
+
+#endif
