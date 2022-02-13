@@ -33,6 +33,7 @@ struct commit {
 	std::string file_name;
 };
 
+/*
 class commit_json {
 	json commit;
 	
@@ -47,5 +48,6 @@ class commit_json {
 	commit["dir_name"] = std::cout << commit.dir_name;
 	commit["file_name"] = std::cout << commit.file_name;
 }
+*/
 
 #endif
