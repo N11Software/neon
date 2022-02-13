@@ -8,7 +8,7 @@
 			},
 			"message": "Memory: Trying to printf current memory used,free,etc..",
 			"timestamp": "2021-10-06T00:00:00Z",
-			"parent": "c1"
+			"parent": "c1",
 			"diff_file": "hydra/.neon/commit/c2.diff"
 		},
 		{
