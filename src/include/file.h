@@ -14,14 +14,14 @@
 #define HASH_SIZE 20
 
 struct filespec {
-	string fname;         // File name
+	std::string fname;    // File name
 	time_t last_modified; // Last modified time
 	int size;             // File size
 	char sha1[HASH_SIZE]; // SHA1 hash
 	size_t length;	      // Length of the file
-	string dir_name;      // Directory name (we won't use this in a case where it is unneccesary)
+	std::string dir_name; // Directory name (we won't use this in a case where it is unneccesary)
 };
 
-extern size_T file_length(FILE *file);
+extern size_t file_length(FILE *file);
 
 #endif
